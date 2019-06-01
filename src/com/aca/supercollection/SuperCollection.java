@@ -1,4 +1,4 @@
-package com.aca;
+package com.aca.supercollection;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -46,5 +46,9 @@ public class SuperCollection<E> implements Iterable<E> {
     @Override
     public Iterator<E> iterator() {
         return list.iterator();
+    }
+
+    public void size() {
+        System.out.println(list.size());
     }
 }

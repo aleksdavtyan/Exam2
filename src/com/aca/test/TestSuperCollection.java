@@ -1,6 +1,6 @@
 package com.aca.test;
 
-import com.aca.SuperCollection;
+import com.aca.supercollection.SuperCollection;
 
 public class TestSuperCollection {
     public static SuperCollection<String> superCollection = new SuperCollection<>();
