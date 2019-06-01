@@ -48,7 +48,7 @@ public class SuperCollection<E> implements Iterable<E> {
         return list.iterator();
     }
 
-    public void size() {
-        System.out.println(list.size());
+    public int size() {
+        return list.size();
     }
 }
